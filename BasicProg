@@ -1,0 +1,28 @@
+100 ORG
+26
+100 0200 JnS		JnS to location 200
+101 3FD9 		Actual parameter 1
+102 467A 		Actual Parameter 2
+103 F000 		Space for return value
+104 7000 Halt
+200 F000 		Space for return address and link back to caller
+201 D200 LoadI 		Get first actual parameter
+202 2213 Store p1 	Store a local copy of p1
+203 1200 Load 200 	Prepare to increment link to caller to prepare to get the next actual parameter
+204 3212 Add  ONE
+205 2200 Store 200
+206 D200 LoadI 		Get second actual parameter
+207 2214 Store p2, 	Store a local copy of p1Update the link back to callerAddI
+208 1200 Load 200 	Prepare to increment link to caller to prepare to get the next actual parameter
+209 3212 Add  ONE
+20A 2200 Store 200
+20B 1213 Load local p1
+20C 3214 Add  Local p2
+20D E200 StoreI 200
+20E 1200 Load 200
+20F 3212 Add ONE
+210 2200 Store 200	Store return address
+211 C200 JumpI		Return control to caller
+212 0001 ONE		Constant with value = 1
+213 FFFF p1		Local storage for p1
+214 Ffff p2		Local storage for p2

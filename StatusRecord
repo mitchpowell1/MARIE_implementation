@@ -1,0 +1,3164 @@
+
+Mitchell Powell
+
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 0
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0000 0000 0000   000
+IR    0000 0000 0000 0000  0000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 0000  0000
+
+JNS Instruction
+Mem: 
+
+      Bin                 Hex
+
+100   0001 0010 0000 0001  1201
+101   0100 0010 0000 0010  4202
+102   1000 0100 0000 0000  8400
+103   1001 0100 0000 0001  9401
+104   0001 0011 0000 0010  1302
+105   0111 0000 0000 0000  7000
+201   0000 0000 0000 0001  0001
+202   0000 0000 0000 1010  000A
+203   0000 0000 0000 0001  0001
+301   0000 0000 0000 0000  0000
+302   0000 0000 0000 0001  0001
+303   1111 0000 0000 0000  F000
+401   1010 0000 0000 0000  A000
+402   0001 0011 0000 0010  1302
+403   0010 0011 0000 0011  2303
+404   0011 0011 0000 0001  3301
+405   0010 0011 0000 0010  2302
+406   0001 0011 0000 0011  1303
+407   0010 0011 0000 0001  2301
+408   0001 0010 0000 0001  1201
+409   0011 0010 0000 0011  3203
+40a   0010 0010 0000 0001  2201
+40b   1001 0001 0000 0000  9100
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 5
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 10
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 14
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 18
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 22
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 27
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 32
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0000 0001  0001
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 37
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0000  0000
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 42
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0000 0001  0001
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 47
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 52
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0000 0001  0001
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 57
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 62
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 67
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 0010  0002
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 71
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 76
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 81
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 85
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 89
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 93
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 98
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 103
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0000 0001  0001
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 108
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 113
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0000 0010  0002
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 118
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 123
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 0001  0001
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0000 0001  0001
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 128
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 133
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 138
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 0011  0003
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 142
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 147
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 152
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 156
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 160
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 164
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 169
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 174
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0000 0010  0002
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 179
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 184
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0000 0011  0003
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 189
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 194
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 0010  0002
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0000 0010  0002
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 199
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 204
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 209
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 0100  0004
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 0100  0004
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 213
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 0100  0004
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 218
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 0100  0004
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 223
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 227
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 231
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 235
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 240
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 245
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0000 0011  0003
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 250
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0010  0002
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 255
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0000 0101  0005
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 260
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 265
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 0011  0003
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0000 0011  0003
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 270
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 0100  0004
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 275
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 280
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 0101  0005
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 284
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 289
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 294
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 298
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 302
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 306
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 311
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 316
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0000 0101  0005
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 321
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 0011  0003
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 326
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0000 1000  0008
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 331
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 336
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0000 0101  0005
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 341
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0101  0005
+MBR   0000 0000 0000 0101  0005
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 346
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 351
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 0110  0006
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 0110  0006
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 355
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 0110  0006
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 360
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 0110  0006
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 365
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 369
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 373
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 0100  0004
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 377
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 382
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 387
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0000 1000  0008
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 392
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0000 1101  000D
+MBR   0000 0000 0000 0101  0005
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 397
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0000 1101  000D
+MBR   0000 0000 0000 1101  000D
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0000 1101  000D
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 402
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 407
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0000 1000  0008
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 412
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0110  0006
+MBR   0000 0000 0000 0110  0006
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 417
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 422
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 0111  0007
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 0111  0007
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 426
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 0111  0007
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 431
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 0111  0007
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 436
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 440
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 444
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 0011  0003
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 448
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 453
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0000 1101  000D
+MBR   0000 0000 0000 1101  000D
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 458
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0000 1101  000D
+MBR   0000 0000 0000 1101  000D
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0000 1101  000D
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 463
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0001 0101  0015
+MBR   0000 0000 0000 1000  0008
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 468
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0001 0101  0015
+MBR   0000 0000 0001 0101  0015
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0001 0101  0015
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 473
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0000 1101  000D
+MBR   0000 0000 0000 1101  000D
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 478
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0000 1101  000D
+MBR   0000 0000 0000 1101  000D
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0000 1101  000D
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 483
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 0111  0007
+MBR   0000 0000 0000 0111  0007
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 488
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 493
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 1000  0008
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 497
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 502
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 507
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 511
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 515
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 0010  0002
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 519
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 524
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0001 0101  0015
+MBR   0000 0000 0001 0101  0015
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 529
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0001 0101  0015
+MBR   0000 0000 0001 0101  0015
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0001 0101  0015
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 534
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0010 0010  0022
+MBR   0000 0000 0000 1101  000D
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 539
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0010 0010  0022
+MBR   0000 0000 0010 0010  0022
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0010 0010  0022
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 544
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0001 0101  0015
+MBR   0000 0000 0001 0101  0015
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 549
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0001 0101  0015
+MBR   0000 0000 0001 0101  0015
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0001 0101  0015
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 554
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 1000  0008
+MBR   0000 0000 0000 1000  0008
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 559
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 564
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 1001  0009
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 1001  0009
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 568
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 1001  0009
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 573
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 1001  0009
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 578
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 582
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0011   103
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 1
+
+R Flag: 1
+
+Clock Cycle: 586
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0001   401
+MAR        0100 0000 0001   401
+IR    1001 0100 0000 0001  9401
+AC    0000 0000 0000 0001  0001
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 590
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0010   402
+MAR        0000 0000 0000   000
+IR    1010 0000 0000 0000  A000
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Clear Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 595
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0011   403
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0010 0010  0022
+MBR   0000 0000 0010 0010  0022
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 600
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0100   404
+MAR        0011 0000 0011   303
+IR    0010 0011 0000 0011  2303
+AC    0000 0000 0010 0010  0022
+MBR   0000 0000 0010 0010  0022
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+303   0000 0000 0010 0010  0022
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 605
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0101   405
+MAR        0011 0000 0001   301
+IR    0011 0011 0000 0001  3301
+AC    0000 0000 0011 0111  0037
+MBR   0000 0000 0001 0101  0015
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 610
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0110   406
+MAR        0011 0000 0010   302
+IR    0010 0011 0000 0010  2302
+AC    0000 0000 0011 0111  0037
+MBR   0000 0000 0011 0111  0037
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+302   0000 0000 0011 0111  0037
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 615
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 0111   407
+MAR        0011 0000 0011   303
+IR    0001 0011 0000 0011  1303
+AC    0000 0000 0010 0010  0022
+MBR   0000 0000 0010 0010  0022
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 620
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1000   408
+MAR        0011 0000 0001   301
+IR    0010 0011 0000 0001  2301
+AC    0000 0000 0010 0010  0022
+MBR   0000 0000 0010 0010  0022
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+301   0000 0000 0010 0010  0022
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 625
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1001   409
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 1001  0009
+MBR   0000 0000 0000 1001  0009
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 630
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1010   40A
+MAR        0010 0000 0011   203
+IR    0011 0010 0000 0011  3203
+AC    0000 0000 0000 1010  000A
+MBR   0000 0000 0000 0001  0001
+
+Add Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 635
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0100 0000 1011   40B
+MAR        0010 0000 0001   201
+IR    0010 0010 0000 0001  2201
+AC    0000 0000 0000 1010  000A
+MBR   0000 0000 0000 1010  000A
+
+Store Instruction
+Mem: 
+
+      Bin                 Hex
+
+201   0000 0000 0000 1010  000A
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 639
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0000   100
+MAR        0001 0000 0000   100
+IR    1001 0001 0000 0000  9100
+AC    0000 0000 0000 1010  000A
+MBR   0000 0000 0000 1010  000A
+
+Jump X Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 644
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0001   101
+MAR        0010 0000 0001   201
+IR    0001 0010 0000 0001  1201
+AC    0000 0000 0000 1010  000A
+MBR   0000 0000 0000 1010  000A
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 649
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0010   102
+MAR        0010 0000 0010   202
+IR    0100 0010 0000 0010  4202
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+Subtract Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 653
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0100   104
+MAR        0100 0000 0000   400
+IR    1000 0100 0000 0000  8400
+AC    0000 0000 0000 0000  0000
+MBR   0000 0000 0000 1010  000A
+
+SkipCond Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 1
+
+Clock Cycle: 658
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0101   105
+MAR        0011 0000 0010   302
+IR    0001 0011 0000 0010  1302
+AC    0000 0000 0011 0111  0037
+MBR   0000 0000 0011 0111  0037
+
+Load Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
+O Flag: 0
+
+R Flag: 0
+
+Clock Cycle: 662
+
+      Bin                  Hex 
+
+InReg           0000 0000    00
+OutReg          0000 0000    00
+PC         0001 0000 0110   106
+MAR        0000 0000 0000   000
+IR    0111 0000 0000 0000  7000
+AC    0000 0000 0011 0111  0037
+MBR   0000 0000 0011 0111  0037
+
+Halt Instruction
+Mem: 
+
+None Modified Since Last Write Out 
+ 
+...............................................
